@@ -1,0 +1,4 @@
+from .SimpleRegressionModule import RegressionModule
+from .SimpleClassificationModule import ClassificationModule, ClassificationModule2
+from .TaskEncoderModule import RegressionTaskEncoder, ClassificationTaskEncoder
+from .MMAMLModules import GatedNet, GatedConvModel, LSTMEmbeddingModel, ConvEmbeddingModel

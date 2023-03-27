@@ -1,0 +1,15 @@
+,1step,10steps,100steps
+MMAML (SOTA),0.45,0.51,0.51
+TSA-MAML (SOTA),0.4,0.57,0.57
+Reptile,0.46,0.48,0.49
+Reptile (3 models),0.46,0.48,0.49
+Reptile (5 models),0.5,0.51,0.52
+MAML,0.34,0.46,0.47
+MAML (3 models),0.35,0.46,0.46
+MAML (5 models),0.37,0.47,0.47
+Multi-Reptile,0.45,0.48,0.49
+Multi-MAML,0.38,0.5,0.51
+Reptile_3 (oracle),0.47,0.51,0.52
+Reptile_5 (oracle),0.5,0.52,0.53
+MAML_3 (oracle),0.37,0.54,0.55
+MAML_5 (oracle),0.42,0.59,0.59
