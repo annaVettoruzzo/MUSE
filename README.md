@@ -1,4 +1,4 @@
-# MUpltipleSEtsMetaParameters_MUSE
+# MUSE
 Official code of the paper "Meta-Learning from Multimodal Task Distributions Using Multiple Sets of Meta-Parameters" presented at IJCNN2023.
 
 ## Abstract
