@@ -24,7 +24,7 @@ path_dir = "Results/classification_multiple/soft_adaptive"
 
 steps = 100
 task_mode = None
-"""
+
 ###################### DATASET ##########################
 print("LOAD DATASET")
 # To sample training tasks randomly (for meta-training)
@@ -58,7 +58,7 @@ for it in range(iters):
 
     avg_accs_scratch = np.array(accs_scratch).mean(axis=0)
     write_in_file(avg_accs_scratch, f"{path_dir}/it{it+1}/avg_accs_scratch_task{task_mode}")
-"""
+
 ##################################### AVERAGE RESULTS ###########################################
 avg_losses = []
 for it in range(iters):
