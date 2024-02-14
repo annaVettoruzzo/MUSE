@@ -7,17 +7,10 @@ We evaluate the proposed method on a diverse set of few-shot regression and imag
 
 ### Cite as
 @inproceedings{vettoruzzo2023meta,
-
-  title={Meta-Learning from Multimodal Task Distributions Using Multiple Sets of Meta-Parameters},
-  
-  author={Vettoruzzo, Anna and Bouguelia, Mohamed-Rafik and R{\"o}gnvaldsson, Thorsteinn},
-  
-  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},
-  
-  pages={1--8},
-  
-  year={2023},
-  
+  title={Meta-Learning from Multimodal Task Distributions Using Multiple Sets of Meta-Parameters},  
+  author={Vettoruzzo, Anna and Bouguelia, Mohamed-Rafik and R{\"o}gnvaldsson, Thorsteinn},  
+  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)},  
+  pages={1--8},  
+  year={2023},  
   organization={IEEE}
-  
 }
