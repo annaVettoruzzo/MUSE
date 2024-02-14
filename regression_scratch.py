@@ -23,7 +23,7 @@ path_dir = f"Results/regression/{k}-shot/{len(idx_modes)}_modes/hard"
 
 steps = 100
 task_mode = None
-"""
+
 ################################### DATASET ######################################
 print("LOAD DATASET")
 tgen = RegressionTaskGenerator(k, q, modes=idx_modes) # k support points, q query points, m modes
@@ -54,7 +54,7 @@ for it in range(iters):
 
     avg_losses_scratch = np.array(losses_scratch).mean(axis=0)
     write_in_file(avg_losses_scratch, f"{path_dir}/it{it+1}/avg_losses_scratch_task{task_mode}")
-"""
+
 ##################################### AVERAGE RESULTS ###########################################
 avg_losses = []
 for it in range(iters):
