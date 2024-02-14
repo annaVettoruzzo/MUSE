@@ -238,7 +238,6 @@ for i, name in enumerate(model_names):
 df_mean.to_csv(f"{path_dir}/avg_comparison_task2.csv", encoding='utf-8')
 df_std.to_csv(f"{path_dir}/std_comparison_task2.csv", encoding='utf-8')
 
-"""
 ############################# DIFFERENT NUMBER OF MODELS ################################
 losses_models = n_models_comparison(tgen, modelA_reptile, modelsB_reptile, teB_reptile, modelsC_reptile, teC_reptile, useTE=True)
 write_in_file(losses_models, f"{path_dir}/it{it+1}/reptile/losses_n_models(long)")
@@ -272,4 +271,4 @@ _, history_maml = adapt_and_evaluate(modelA_maml, None, newX_sp, newy_sp, newX_q
 
 histories = [history_bestmodelC_reptile, history_reptile, history_bestmodelC_maml, history_maml]
 plot_regression_results_comparison(newX_sp, newy_sp, newX_qr, newy_qr, histories, best_modelC_reptile, predC_reptile[0][best_modelC_reptile], best_modelC_maml, predC_maml[0][best_modelC_maml], save=f"{path_dir}/fitting_curves.png")
-"""
+
