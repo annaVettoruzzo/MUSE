@@ -1,5 +1,6 @@
 # MUSE
-Official code of the paper "Meta-Learning from Multimodal Task Distributions Using Multiple Sets of Meta-Parameters" presented at IJCNN2023.
+Official code of the paper **"Meta-Learning from Multimodal Task Distributions Using Multiple Sets of Meta-Parameters"** presented at 2023 International Joint Conference on Neural Networks (IJCNN).
+https://ieeexplore.ieee.org/abstract/document/10191944
 
 ## Abstract
 The proposed method learns multiple sets of meta-parameters (acting as different initializations of a neural network model) and uses a task encoder to select the best initialization to fine-tune for a new task.
