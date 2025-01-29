@@ -7,6 +7,7 @@ The proposed method learns multiple sets of meta-parameters (acting as different
 We evaluate the proposed method on a diverse set of few-shot regression and image classification tasks. The results demonstrate the superiority of the proposed method compared to other state-of-the-art meta-learning methods and the benefit of learning multiple model initializations when tasks are sampled from a multimodal task distribution.
 
 ### Cite as
+```
 @inproceedings{vettoruzzo2023meta,
   title={Meta-Learning from Multimodal Task Distributions Using Multiple Sets of Meta-Parameters},  
   author={Vettoruzzo, Anna and Bouguelia, Mohamed-Rafik and R{\"o}gnvaldsson, Thorsteinn},  
@@ -15,3 +16,4 @@ We evaluate the proposed method on a diverse set of few-shot regression and imag
   year={2023},  
   organization={IEEE}
 }
+```
